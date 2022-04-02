@@ -23,7 +23,7 @@ body {
   margin: 0px;
 }
 
-/*  GROUPING  ============================================================================= */
+/*  Agrupado   */
 .group:before,
 .group:after {
   content: "";
@@ -36,10 +36,9 @@ body {
 
 .group {
   zoom: 1;
-  /* For IE 6/7 (trigger hasLayout) */
 }
 
-/*  GRID COLUMN SETUP   ==================================================================== */
+/*  Config columnas grid  */
 .col {
   display: block;
   float: left;
@@ -50,8 +49,8 @@ body {
   margin-left: 0;
 }
 
-/* all browsers except IE6 and lower */
-/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+/*  quita margenes, full width 480px */
 @media only screen and (max-width: 480px) {
   .col {
     margin: 1% 0 1% 0%;
